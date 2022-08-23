@@ -9,6 +9,7 @@ body {
   background-color: #f9f9f9;
   margin: 0;
   padding: 0; 
+  scroll-behavior: smooth;
 }
 
 header {
@@ -252,6 +253,7 @@ footer {
 
 
 @media (max-width: 875px) {
+
   .posts {
     grid-column: 1/4;
     display: grid;
@@ -295,6 +297,7 @@ footer {
   } 
  
   footer { 
+    margin-top: 0;
     padding: 2.5% 0; 
   }
 
@@ -325,19 +328,54 @@ footer {
   }
 
   .right-nav {
-    margin-top: 20px;
     grid-column: 1/-1;
   }
 
   .snippet {
-    height: 38%;
-  }
-
-  .right-nav h2 {
-    margin-top: 20px;
+    height: 42%;
   }
  
   footer { 
+    margin-top: 20px;
     padding: 3% 0; 
+    text-align: center;
+  }
+}
+
+
+@media (max-height: 400px) {
+
+  .post-grande {
+    margin-bottom: 0;
+  }
+  
+  .posts {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-rows: 80vh 1fr 1fr 1fr;
+    grid-template-columns: 1fr; 
+    row-gap: 40px;
+  }
+  
+  .posts-menores img {
+    height: 70vh;
+  }
+
+  .snippet {
+    height: 40%;
+    margin-bottom: 0;
+  }
+
+  footer {
+    margin-top: 40px;
+  }
+   
+}
+
+
+
+@media (max-height: 400px) and (max-width: 750px) {
+  .right-nav {
+    margin-top: 40px;
   }
 }
