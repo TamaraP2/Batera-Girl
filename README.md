@@ -1,7 +1,11 @@
 <h1 align="center">Batera Girl</h1>
 
-<p align="center">Réplica melhorada do blog que tive em 2014! </p>
-<p align="center">https://tamarap2.github.io/Batera-Girl/</p>
+<div align="center">
+  <p>Réplica melhorada do blog que tive em 2014</p>
+  <p>Nesse blog eu ensinava tudo que sabia sobre as partes da bateria</p>
+  <p>Projeto feito utilizando apenas HTML e CSS</p>
+  <p>https://tamarap2.github.io/Batera-Girl/</p>
+</div>
 
 <hr>
 
